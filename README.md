@@ -1,6 +1,6 @@
 # Meu Projeto Kubernetes
 
-![Kubernetes Logo](https://kubernetes.io/images/header/logo.svg) <!-- Exemplo de imagem, você pode usar outras -->
+<img src="https://github.com/LuisFelipe-Santos/meu-projeto-kubernetes/blob/main/kubernetes.png?raw=true" alt="Kubernetes Logo" width="200"/>
 
 ## Descrição
 
@@ -70,3 +70,19 @@ curl http://localhost:<nodeport>
 
 - O uso de listas numeradas e formatação de código torna a seção mais legível.
 - Certifique-se de substituir `<minikube-ip>` e `<nodeport>` com os valores corretos ao executar os comandos. 
+
+## Estrutura do Diagrama de Funcionalidade
+![Diagrama](https://github.com/LuisFelipe-Santos/meu-projeto-kubernetes/blob/main/Diagrama-aplicacao.drawio.png?raw=true)
+
+Explicação da Ordem:
+- Git: Onde o código-fonte é armazenado e versionado.
+- Docker: Criação da imagem da aplicação a partir do código-fonte.
+- Deploy: Configura e implanta a imagem Docker nos Pods.
+- Pods: Executam a aplicação em contêineres, com base na imagem criada.
+- Serviço NodePort: Exposição da aplicação para permitir o acesso externo.
+- Usuário: Acessa a aplicação pelo serviço NodePort.
+
+## Minikube com a Aplicação Rodando 
+
+![Minikubes](https://github.com/LuisFelipe-Santos/meu-projeto-kubernetes/blob/main/minikube-kubernetes.png?raw=true)
+
