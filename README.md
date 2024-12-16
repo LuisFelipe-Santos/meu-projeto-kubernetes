@@ -1,4 +1,4 @@
-# Meu Projeto Kubernetes
+# Projeto Kubernetes
 
 <img src="https://github.com/LuisFelipe-Santos/meu-projeto-kubernetes/blob/main/kubernetes.png?raw=true" alt="Kubernetes Logo" width="200"/>
 
